@@ -1,52 +1,22 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>enduro.js page</title>
-		<link rel="stylesheet" href="/assets/css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,200" rel="stylesheet">
-		<style type="text/css"></style>
-	</head>
-	<body>
-		{{!-- intro --}}
-		{{#with first_slide}}
-			<section class="screen">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-				</div>
+		{{>header-fluid}}
 
-				<div class="bottom_block vertical_pulsate">
-					<p>{{call_to_action}}</p>
-				</div>
-			</section>
-		{{/with}}
+		{{>default-hero}}
 
-		{{#each instruction_points}}
-			<section class="screen half color{{divisible @index 2 '1' '2'}}">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<a target="_blank" class="button" href="{{link}}">Learn more</a>
-				</div>
-			</section>
-		{{/each}}
-
-		{{#with so_much_more_block}}
-			<section class="screen half color1">
-				<div class="center_block">
-					<p class="huge">{{header}}</p>
-					<p>{{tagline}}</p>
-					<ul>
-						{{#each list_of_topics}}
-							<li>{{tagline}} <a target="_blank" href="">Here</a></li>
-						{{/each}}
-					</ul>
-				</div>
-			</section>
-		{{/with}}
+			<div class="container">
+				<section>
+					<h1>Welcome!</h1>
+					<p>
+						We are the KSU Solar Vehicle Team, a non-profit student organization
+						at Kennesaw State University dedicated to designing, building, and
+						racing solar-powered cars. Our solar cars run solely on solar power.
+					</p>
+					<p>
+						Our team consists of students from diverse engineering disciplines,
+						to business and marketing. Every member's unique background allows
+						us to analyze problems from different perspectives as we collaborate
+						to find the most efficient approach to developing our solar-powered
+						vehicle.
+					</p>
+				</section>
 
 		{{>footer}}
-
-	</body>
-
-</html>

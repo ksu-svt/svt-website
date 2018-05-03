@@ -1,0 +1,12 @@
+.hero-image {
+  /* The image used */
+  background-image: url("/assets/img/mountain-road.jpg");
+  /* Set a specific height */
+  height: 50%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRoZW1lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQkFBb0I7RUFDcEIsdURBQXNEO0VBRXRELDJCQUEyQjtFQUMzQixZQUFXO0VBRVgsa0VBQWtFO0VBQ2xFLDRCQUEyQjtFQUMzQiw2QkFBNEI7RUFDNUIsdUJBQXNCO0VBQ3RCLG1CQUFrQixFQUNyQiIsImZpbGUiOiJ0aGVtZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaGVyby1pbWFnZSB7XHJcbiAgICAvKiBUaGUgaW1hZ2UgdXNlZCAqL1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiL2Fzc2V0cy9pbWcvbW91bnRhaW4tcm9hZC5qcGdcIik7XHJcblxyXG4gICAgLyogU2V0IGEgc3BlY2lmaWMgaGVpZ2h0ICovXHJcbiAgICBoZWlnaHQ6IDUwJTtcclxuXHJcbiAgICAvKiBQb3NpdGlvbiBhbmQgY2VudGVyIHRoZSBpbWFnZSB0byBzY2FsZSBuaWNlbHkgb24gYWxsIHNjcmVlbnMgKi9cclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcbiJdfQ== */
